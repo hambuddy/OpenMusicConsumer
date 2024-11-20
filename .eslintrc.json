@@ -1,0 +1,17 @@
+{
+    "env": {
+      "es2021": true,
+      "node": true
+    },
+    "extends": ["airbnb-base"],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {
+      "no-console": "off",  // Hanya gunakan jika perlu debugging
+      "linebreak-style": ["error", "unix"], // Disesuaikan sesuai platform (e.g., windows/unix)
+      "no-unused-vars": ["error", { "args": "none" }], // Memberikan toleransi variabel tidak digunakan dalam argumen
+      "comma-dangle": ["error", "always-multiline"] // Mengatur koma dangle agar konsisten
+    }
+  }
+  
