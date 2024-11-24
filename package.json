@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ilham Maulana",
   "license": "ISC",
   "description": "",
   "dependencies": {
@@ -14,6 +14,7 @@
     "autobind": "^1.0.3",
     "dotenv": "^16.4.5",
     "nodemailer": "^6.9.16",
+    "notes-app-queue-consumer": "file:",
     "pg": "^8.13.1"
   },
   "devDependencies": {
